@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap test</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--* навигационное меню -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> <img class="navbar-logo" src="/src/icons/snow-svgrepo-com.svg" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Ссылка</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Выпадающий список
+                    </a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Действие</a></li>
+                    <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">Отключенная</a>
+                </li>
+                </ul>
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+                <button class="btn btn-outline-success" type="submit">Поиск</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!--* Карусель -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="content">
+                    <h1>Snowing</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptatum nemo laboriosam doloremque voluptatem nobis saepe qui optio odit debitis est, asperiores reiciendis deleniti, perspiciatis suscipit sequi dolorum cum ipsum.</p>
+
+                    <button type="button" class="btn btn-outline-primary mb-3">Primary</button>
+
+                    <p> Photo by <a href="https://unsplash.com/@withmazur?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Maksym Mazur</a> on <a href="https://unsplash.com/photos/a-house-in-the-middle-of-a-snowy-field-IED7T01FDDI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> </p>
+                </div>
+
+                    <div class="overlay"></div>
+
+                <img src="/src/img/first3.jpg" class="d-block w-100" alt="snow">
+            </div>
+
+
+            <div class="carousel-item">
+                <div class="content">
+                    <h2>Snowing</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptatum nemo laboriosam doloremque voluptatem nobis saepe qui optio odit debitis est, asperiores reiciendis deleniti, perspiciatis suscipit sequi dolorum cum ipsum.</p>
+
+                    <button type="button" class="btn btn-outline-primary mb-3">Primary</button>
+
+                    <p>Photo by <a href="https://unsplash.com/@ganinph?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Dmitry Ganin</a> on <a href="https://unsplash.com/photos/a-cabin-in-the-snow-0joNGL1Dtvo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> </p>
+                    
+                </div>
+
+                <div class="overlay"></div>
+
+                <img src="/src/img/second.jpg" class="d-block w-100" alt="snow">
+                    
+
+
+            </div>
+            <div class="carousel-item">
+                <div class="content">
+                    <h3>Snowing</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptatum nemo laboriosam doloremque voluptatem nobis saepe qui optio odit debitis est, asperiores reiciendis deleniti, perspiciatis suscipit sequi dolorum cum ipsum.</p>
+
+                    <button type="button" class="btn btn-outline-primary mb-3">Primary</button>
+                    <p>Photo by <a href="https://unsplash.com/@blinky264?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Marc Pell</a> on <a href="https://unsplash.com/photos/a-red-cabin-in-the-middle-of-a-snowy-forest-Z7y4d3rAEj0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> </p>
+                    
+                </div>
+
+                <div class="overlay"></div>
+
+                <img src="/src/img/third.jpg" class="d-block w-100" alt="snow">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Предыдущий</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Следующий</span>
+        </button>
+    </div>
+
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
